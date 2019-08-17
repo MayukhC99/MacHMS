@@ -1,0 +1,54 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="Project1.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"Project1.exe"
+"msvbvm60.dll"
+"oleaut32.dll"
+"olepro32.dll"
+"asycfilt.dll"
+"stdole2.tlb"
+"COMCAT.DLL"
+"DAO350.DLL"
+"MSJET35.DLL"
+"MSJTER35.DLL"
+"MSJINT35.DLL"
+"vbajet32.dll"
+"expsrv.dll"
+"MSRD2X35.DLL"
+"MSREPL35.DLL"
+"MSVCRT40.DLL"
+"VB5DB.DLL"
+"Styler_button.ocx"
+"glxpbuttonz.ocx"
+"MSDATGRD.OCX"
+"MSSTDFMT.DLL"
+"MSCHRT20.OCX"
+"MSADODC.OCX"
+"MSCOMM32.OCX"
+"COMDLG32.OCX"
+"msado20.tlb"
+"TransFrameCTL.ocx"
+"TABCTL32.OCX"
+"MSCOMCTL.OCX"
+"MSCOMCT2.OCX"
+"msadomd.dll"
+"MSDERUN.DLL"
+"MSDBRPTR.DLL"
+"MSBIND.DLL"
+"MSRDO20.DLL"
+"RDOCURS.DLL"
+"MDAC_TYP.EXE"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"

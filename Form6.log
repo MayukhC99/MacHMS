@@ -1,0 +1,45 @@
+Line 24: Class MSDataGridLib.DataGrid of control DataGrid1 was not a loaded control class.
+Line 92: Class MSAdodcLib.Adodc of control Adodc1 was not a loaded control class.
+Line 138: Class MSChart20Lib.MSChart of control MSChart1 was not a loaded control class.
+Line 25: The property name Bindings in DataGrid1 is invalid.
+Line 31: The property name _ExtentX in DataGrid1 is invalid.
+Line 32: The property name _ExtentY in DataGrid1 is invalid.
+Line 33: The property name _Version in DataGrid1 is invalid.
+Line 34: The property name HeadLines in DataGrid1 is invalid.
+Line 35: The property name RowHeight in DataGrid1 is invalid.
+Line 36: The property name FormatLocked in DataGrid1 is invalid.
+Line 45: The property name HeadFont in DataGrid1 is invalid.
+Line 55: The property name ColumnCount in DataGrid1 is invalid.
+Line 68: The property name Column00 in DataGrid1 is invalid.
+Line 81: The property name Column01 in DataGrid1 is invalid.
+Line 82: The property name SplitCount in DataGrid1 is invalid.
+Line 90: The property name Split0 in DataGrid1 is invalid.
+Line 97: The property name _ExtentX in Adodc1 is invalid.
+Line 98: The property name _ExtentY in Adodc1 is invalid.
+Line 99: The property name ConnectMode in Adodc1 is invalid.
+Line 100: The property name CursorLocation in Adodc1 is invalid.
+Line 101: The property name IsolationLevel in Adodc1 is invalid.
+Line 102: The property name ConnectionTimeout in Adodc1 is invalid.
+Line 103: The property name CommandTimeout in Adodc1 is invalid.
+Line 104: The property name CursorType in Adodc1 is invalid.
+Line 105: The property name LockType in Adodc1 is invalid.
+Line 106: The property name CommandType in Adodc1 is invalid.
+Line 107: The property name CursorOptions in Adodc1 is invalid.
+Line 108: The property name CacheSize in Adodc1 is invalid.
+Line 109: The property name MaxRecords in Adodc1 is invalid.
+Line 110: The property name BOFAction in Adodc1 is invalid.
+Line 111: The property name EOFAction in Adodc1 is invalid.
+Line 112: The property name ConnectStringType in Adodc1 is invalid.
+Line 116: The property name Orientation in Adodc1 is invalid.
+Line 118: The property name Connect in Adodc1 is invalid.
+Line 119: The property name OLEDBString in Adodc1 is invalid.
+Line 120: The property name OLEDBFile in Adodc1 is invalid.
+Line 121: The property name DataSourceName in Adodc1 is invalid.
+Line 122: The property name OtherAttributes in Adodc1 is invalid.
+Line 123: The property name UserName in Adodc1 is invalid.
+Line 124: The property name Password in Adodc1 is invalid.
+Line 125: The property name RecordSource in Adodc1 is invalid.
+Line 126: The property name Caption in Adodc1 is invalid.
+Line 136: The property name _Version in Adodc1 is invalid.
+Line 139: The property name Bindings in MSChart1 is invalid.
+Line 142: The property name OleObjectBlob in MSChart1 is invalid.
