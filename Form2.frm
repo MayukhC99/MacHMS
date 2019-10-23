@@ -172,9 +172,9 @@ Private Sub Form_Activate()
     Me.WindowState = vbMaximized
     
     Call ConnectDB
-    
+'Connect DB is defined to connect the database of this project
     Rs.CursorLocation = adUseClient
-    Rs.Open "Select * from Patients where U_Name='" & UID & "'", Cn, adOpenDynamic, adLockOptimistic
+Rs.Open "SELECT * from Patients where U_Name='" & UID & "'", Cn, adOpenDynamic, adLockOptimistic
     
     Set Me.DataGrid1.DataSource = Rs
     
@@ -243,19 +243,20 @@ End Sub
 Private Sub Text1_KeyUp(KeyCode As Integer, Shift As Integer)
     a = Trim(Me.Text1)
     Rs.Close
+'searches the database for a particualr patient and his/her name,ID,doctor name or bed number
     Rs.CursorLocation = adUseClient
     If Me.Text1.ToolTipText = "Name" Then
-        Rs.Open "Select * from Patients where U_Name='" & UID & "' and Patient_Name like'" & a & "%'", Cn, adOpenDynamic, adLockOptimistic
+Rs.Open "Select * from Patients where U_Name='" & UID & "' and  Patient_Name like'" & a & "%'", Cn, adOpenDynamic, adLockOptimistic
     ElseIf Me.Text1.ToolTipText = "Patient ID" Then
         Rs.Open "Select * from Patients where U_Name='" & UID & "' and PID like'" & a & "%'", Cn, adOpenDynamic, adLockOptimistic
     ElseIf Me.Text1.ToolTipText = "Doctor's Name" Then
-        Rs.Open "Select * from Patients where U_Name='" & UID & "' and Doctor like'" & a & "%'", Cn, adOpenDynamic, adLockOptimistic
+Rs.Open "Select * from Patients where U_Name='" & UID & "' and  Doctor like'" & a & "%'", Cn, adOpenDynamic, adLockOptimistic
     ElseIf Me.Text1.ToolTipText = "Bed Number" Then
-        Rs.Open "Select * from Patients where U_Name='" & UID & "' and Bed_Number like'" & a & "%'", Cn, adOpenDynamic, adLockOptimistic
+Rs.Open "SELECT * from Patients where U_Name='" & UID & "' and Bed_Number like'" & a & "%'", Cn, adOpenDynamic, adLockOptimistic
     ElseIf Me.Text1.ToolTipText = "Released" Then
-        Rs.Open "Select * from Patients where U_Name='" & UID & "' and Release='Yes'", Cn, adOpenDynamic, adLockOptimistic
+Rs.Open "SELECT * from Patients where U_Name='" & UID & "' and Release='Yes'", Cn, adOpenDynamic, adLockOptimistic
     ElseIf Me.Text1.ToolTipText = "Not Yet Released" Then
-        Rs.Open "Select * from Patients where U_Name='" & UID & "' and Release='No'", Cn, adOpenDynamic, adLockOptimistic
+Rs.Open "SELECT * from Patients where U_Name='" & UID & "' and Release='No'", Cn, adOpenDynamic, adLockOptimistic
     End If
     Set Me.DataGrid1.DataSource = Rs
     Me.DataGrid1.ReBind
